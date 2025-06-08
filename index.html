@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Form Validation</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>******Form Validation*****</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+  <body>
     <div id="msg">
-        <div id="errors"></div>
-        <div id="success"></div>
-    </div>
-    <div class="container">
-        <div class="wrapper">
-            <div class="formele">
-                <label for="Email">Email</label>
-                <input type="text" id="Email" name="Email" />
-            </div>
-            <div class="formele">
-                <label for="phoneno">Phone no</label>
-                <input type="text" id="phoneno" name="phoneno" maxlength="10" />
-            </div>
-            <div class="formele passfiled">
-                <label for="pass">Password</label>
-                <div class="pass">
-                    <input type="password" id="pass" name="pass" />
-                    <button id="showpass" class="buttonhover">Show</button>
-                </div>
-            </div>
-            <div class="formele">
-                <label for="cpass">Confirm Password</label>
-                <div class="cpass">
-                    <input type="password" id="cpass" name="cpass" />
-                    <button id="cshowpass" class="buttonhover">Show</button>
-                </div>
-            </div>
-            <input type="submit" name="" id="submitbtn" value="Submit">
+          <div id="errors"></div>
+          <div id="sucess"></div>
         </div>
+    <div class="container">
+      
+      <div class="wrapper">
+        <div class="formele">
+          <label for="Email">Email</label>
+          <input type="text" id="Email" name="Email" />
+        </div>
+        <div class="formele">
+          <label for="phoneno">Phone no</label>
+          <input type="text" id="phoneno" name="phoneno" maxlength="10" />
+        </div>
+        <div class="formele passfiled">
+          <label for="pass">Password</label>
+          <div class="pass">
+            <input type="password" id="pass" name="pass" />
+          
+            <button id="showpass" class="buttonhover">Show</button>
+          </div>
+        </div>
+        
+        <div class="formele">
+          <label for="cpass">Confirm Password</label>
+          <div class="cpass">
+            <input type="password" id="cpass" name="cpass" />
+          <button id="cshowpass"   class="buttonhover">Show</button>
+          </div>
+          
+        </div>
+      <input type="submit" name="" id="submitbtn">
+        
+      </div>
     </div>
-    <script src="script.js"></script>
-</body>
+    </body>
 </html>
