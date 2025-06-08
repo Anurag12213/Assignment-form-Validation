@@ -1,69 +1,94 @@
 body {
-        font-family: cursive, sans-serif;
-        font-size: 130%;
-        box-sizing: border-box;
-        background-color: #f6f4f4;
-        margin: 0;
-        padding: 0;
-        height: 100%;
-      }
-      .container {
-        background-color: #fff;
-        width: 650px;
-        
-        margin: 0 auto;
-        border-radius: 1rem;
-        box-shadow: 10px #232323;
-      }
-      .wrapper {
-        padding: 5rem;
-        
-        width: 550px;
-      }
-      label {
-        width: 200px;
-        float: left;
-        position: relative;
-        top: 12px;
-      }
-      input {
-        width: 330px;
-        font-size: 25px;
-        border: 2px solid #333;
-        border-radius: 0.5rem;
-        padding: 0.1rem 0.1rem 0.7rem 0.1rem;
-      }
-      .formele {
-        display: flex;
-        justify-content: space-evenly;
-        margin: 0 0 1rem 0;
-      }
-      #submitbtn {
-        width: 150px;
-        margin-left: 210px;
-        padding: 0.3rem 0.1rem 0.3rem 0.1rem;
-      }
-      #msg {
-        display: flex;
-        
-        justify-content: space-evenly;
-      } 
-      #errors {
-        
-        color: red;
-        font-size: 90%;
-        width: 100%;
-        padding: 1rem;
-       
-      }
-      #sucess {
-        
-        color: green;
-        font-size: 90%;
-        width: 100%;
-        padding: 1rem;
-        position:absolute;
-        float: left;
-        left: .2rem;
-        
-      }
+    font-family: cursive, sans-serif;
+    font-size: 130%;
+    box-sizing: border-box;
+    background-color: #f6f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #fff;
+    width: 750px;
+    margin: 0 auto;
+    border-radius: 1rem;
+    box-shadow: 10px #232323;
+}
+
+.wrapper {
+    padding: 5rem;
+    width: 600px;
+}
+
+label {
+    width: 200px;
+    float: left;
+    position: relative;
+    top: 12px;
+}
+
+input {
+    width: 330px;
+    font-size: 25px;
+    border: 2px solid #333;
+    border-radius: 0.5rem;
+    padding: 0.1rem 0.1rem 0.7rem 0.1rem;
+    margin: .4rem;
+}
+
+input:hover {
+    background-color: #f4f4f4;
+}
+
+.formele {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 0 1rem 0;
+}
+
+#submitbtn {
+    width: 150px;
+    margin-left: 210px;
+    padding: 0.3rem 0.1rem 0.3rem 0.1rem;
+}
+#submitbtn:hover{
+  background-color: rgba(60, 217, 91, 0.669);
+}
+#msg {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#errors {
+    color: red;
+    font-size: 90%;
+    width: 100%;
+    padding: 1rem;
+}
+
+#success {
+    color: green;
+    font-size: 90%;
+    width: 100%;
+    padding: 1rem;
+    position: absolute;
+    float: left;
+    left: .2rem;
+}
+
+#showpass, #cshowpass {
+    display: block;
+    width: 20%;
+    flex-basis: 50%;
+    border-radius: .5rem;
+    padding: 0.3rem 0.1rem 0.3rem 0.1rem; 
+    background-color: rgb(127, 255, 136);
+    margin: auto;
+}
+#showpass:hover, #cshowpass:hover{
+  background-color: rgba(60, 217, 91, 0.669);
+}
+.pass, .cpass {
+    display: flex;
+    flex-direction: column;
+}
